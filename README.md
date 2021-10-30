@@ -1,6 +1,3 @@
-# zaki 
-1197070079 A1
-
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 const int pir1=6,pir2=7;
@@ -71,4 +68,3 @@ void loop()
   lcd.print(in - out);
   delay(1000); 
 }
-
